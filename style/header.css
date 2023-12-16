@@ -1,0 +1,14 @@
+:root {
+    --white: #FFFFFF;
+    --orange: #FF9500;
+    --black: #262626;
+    --background: #F7F7F8;
+    --p_color :  #454444;
+
+}
+
+header >  div,
+.login_button
+{
+    background-color: var(--orange);
+}

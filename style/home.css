@@ -1,0 +1,135 @@
+body{
+    background-color: #F8F9FA;
+}
+
+
+.get_it_now{
+    background-color: #f2f4f7;
+}
+
+.img_container{
+    border-right: 1px solid rgb(203, 200, 200);
+}
+
+
+.profile_container {
+    background-color:#FCFCFD;
+}
+.hero_section span {
+    color:orange;
+}
+
+
+.explore_courses_button,
+.monthly_button{
+    background-color: orange;
+}
+
+.get_started_button
+{
+   background-color: orange;
+   border-radius: 0px 0px 5px 5px;
+
+}
+
+.plan_type {
+    background-color: #f8efe4;
+    border: 1px solid #f5ddbf;
+}
+
+.price{
+    font-size: 60px;
+}
+
+.answer_container p ,
+.hero_section p{
+    color: #565555;
+
+}
+
+
+
+@media (max-width:768px){
+    .hero_section_heading h1{
+        font-size: 26px;
+    }
+    .hero_section h4{
+        font-size: 17px;
+    }
+    .hero_section p{
+        font-size: 13px;
+    }
+
+    .card-img{
+        width: 100px;
+    }
+    .card_container{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width:576px){
+
+    .course_description{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card_container {
+        margin: 0 auto;
+    }
+
+    @media (max-width:552px){
+        .hero_section_heading h1{
+            font-size: 1rem;
+        }
+
+        #lightining_icon {
+            width: 40px;
+        }
+
+        .hero_section h4{
+            font-size: .85rem;
+        }
+
+        .hero_section p {
+            font-size: .70rem;
+        }
+    }
+
+    /* @media (max-width:576px){
+        .card_section{
+            overflow-x: scroll;
+            padding: 3px;
+            justify-content: flex-start;
+        }
+    
+        .card{
+            padding: 9px;
+        }
+        
+        .card-img{
+            width: 120px;
+        }
+    } */
+
+    @media (max-width:390px){
+
+        .hero_section_heading h1
+        {
+            font-size: .85rem;
+        }
+        #lightining_icon {
+            width: 30px;
+        }
+        .hero_section h4{
+            font-size: .7rem;
+        }
+        .hero_section p {
+            font-size: .6rem;
+        }
+    }
+} 
+ 
+

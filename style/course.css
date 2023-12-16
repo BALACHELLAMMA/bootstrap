@@ -1,0 +1,14 @@
+body{
+    background-color: #F8F9FA;
+}
+
+.curriculum{
+    border-right: 1px solid gray;
+}
+
+@media (max-width:768px){
+    .curriculum{
+        border:none;
+        border-bottom: 1px solid gray;
+    }
+}
